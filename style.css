@@ -134,18 +134,18 @@ button {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.checkbox-in-li {
   margin: 0 10px;
 }
 
-li > label {
+.text-area-header {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > .text-area-task {
+.ul-section > .text-area-task {
   width: 226px;
 }
 
