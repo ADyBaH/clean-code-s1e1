@@ -166,15 +166,15 @@ button {
 }
 
 /* Edit Task */
-ul li .text-area-task {
+.ul-section .li-section .text-area-task {
   display: none;
 }
 
-ul li.edit-mode .text-area-task {
+.ul-section .edit-mode .text-area-task {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode .text-area-header {
+.ul-section .edit-mode .text-area-header {
   display: none;
 }
