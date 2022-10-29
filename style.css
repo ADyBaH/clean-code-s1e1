@@ -129,7 +129,8 @@ button {
   align-items: center;
 }
 
-li > * {
+.ul-section,
+.edit-mode > * {
   vertical-align: middle;
 }
 
