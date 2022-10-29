@@ -160,7 +160,7 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks .text-area-header {
   text-decoration: line-through;
   color: #888;
 }
@@ -175,6 +175,6 @@ ul li.edit-mode .text-area-task {
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit-mode .text-area-header {
   display: none;
 }
