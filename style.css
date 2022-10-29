@@ -118,7 +118,7 @@ button {
 }
 
 /* Task list */
-.ul-section,
+.li-section,
 .edit-mode {
   overflow: hidden;
   padding: 20px 0;
@@ -129,7 +129,7 @@ button {
   align-items: center;
 }
 
-.ul-section,
+.li-section,
 .edit-mode > * {
   vertical-align: middle;
 }
@@ -145,7 +145,7 @@ button {
   width: 226px;
 }
 
-.ul-section > .text-area-task {
+.li-section > .text-area-task {
   width: 226px;
 }
 

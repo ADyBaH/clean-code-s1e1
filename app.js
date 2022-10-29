@@ -35,7 +35,7 @@ var createNewTaskElement=function(taskString){
     label.innerText=taskString;
     label.className="text-area-header";
 
-    listItem.className="ul-section";
+    listItem.className="li-section";
 
     //Each elements, needs appending
     checkBox.type="checkbox";
@@ -67,7 +67,7 @@ var addTask=function(){
     //Create a new list item with the text from the #new-task:
     if (!taskInput.value) return;
     var listItem=createNewTaskElement(taskInput.value);
-    listItem.className="ul-section";
+    listItem.className="li-section";
 
     //Append listItem to incompleteTaskHolder
     incompleteTaskHolder.appendChild(listItem);
@@ -104,7 +104,7 @@ var editTask=function(){
 
     //toggle .edit-mode on the parent.
     listItem.classList.toggle("edit-mode");
-    listItem.classList.toggle("ul-section");
+    listItem.classList.toggle("li-section");
 };
 
 
