@@ -160,7 +160,7 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks .text-area-header {
+#completed-tasks .text-area-header {
   text-decoration: line-through;
   color: #888;
 }
